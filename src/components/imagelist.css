@@ -1,0 +1,26 @@
+body{
+    color: white;
+    background-color: #6108085b;
+}
+.imageList{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    background-color:white;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 20px;
+}
+.picture{
+    height: 100px;
+    width: auto;
+    margin: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.picture:hover{
+    border-radius: 12px;
+    
+    box-shadow: 2px 2px 5px gray;
+}
